@@ -138,12 +138,13 @@ button:hover{
 
 
 /* Feature Scetion */
-.feature1{
+
+.feature{
     height: 100%;
     padding-top: 72px;
     padding-bottom: 72px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 193px;
+    padding-right: 193px;
     border-color: rgb(35,35,35);
     border-width: 8px;
     border-style: solid;
@@ -154,13 +155,14 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-.feature-discription{
+
+/* .feature-discription{
     vertical-align: middle;
     width: 51%;
     text-align: right;
     padding-top: 120px;
-}
-.feature-img2,
+} */
+.feature-img3,
 .feature-img{
     background: transparent;
     vertical-align: middle;
@@ -175,7 +177,7 @@ button:hover{
     z-index: -1;
 }
 
-.feature-img2 > video{
+.feature-img3 > video{
     position: absolute;
     left: 12%;
     top: 10%;
@@ -185,23 +187,39 @@ button:hover{
     padding-left: 29px;
   }
 
-.feature-text{
-    text-align: left;
-    margin-bottom: 16px;
-    margin-left: 115px;
-    line-height: 32px;
-
-}
-.feature-head{
-    font-weight: bold;
-    line-height: 61px;
-}
 .feature-img-left{
     background-color: black;
     padding-left:  120px;
     width: 35%;
 }
+
+.feature-discription{
+    display: inline-block;
+    padding-top: 150px;
+
+}
+.feature-text-2{
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.feature-text-1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.feature-text-1,
+.feature-text-2{
+    text-align: left;
+
+}
+
 /* End of feature section */
+
+
+
+/* Frequently askrd question */
 .faq-section{
     background-color: black;
     border-color: rgb(35,35,35);
@@ -227,7 +245,6 @@ button:hover{
     color: white;
     border-radius: 0%;
     text-align:left ;
-    vertical-align: middle;
     /* margin-top: 12px; */
     padding-left: 26px;
     padding-right: 26px;
